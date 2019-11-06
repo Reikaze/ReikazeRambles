@@ -163,11 +163,11 @@ function SEO({
 				},
 				{
 					name: "og:image",
-					content: "https://unicorn-utterances.com/share-banner.png"
+					content: "https://reikazerambles.com/share-banner.png"
 				},
 				{
 					name: "twitter:image",
-					content: "https://unicorn-utterances.com/share-banner.png"
+					content: "https://reikazerambles.com/share-banner.png"
 				}
 			]
 				.concat(meta)
