@@ -28,7 +28,7 @@ const BlogPostListTemplate = props => {
 				<PostListLayout posts={posts} pageContext={pageContext}>
 					<PicTitleHeader
 						image={data.file.childImageSharp.fixed}
-						title="RockmanDash Reviews"
+						title="Reikaze Rambles"
 						description={Description}
 					/>
 				</PostListLayout>

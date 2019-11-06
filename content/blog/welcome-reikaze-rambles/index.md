@@ -1,6 +1,6 @@
 ---
 {
-    title: "Welcome to Reikaze Rambles",
+    title: "Welcome to Reikaze Rambles!",
     description: An introduction to Reikaze Rambles/RockmanDash Reviews,
     published: '2019-11-05T22:12:03.284Z',
     authors: ['reikaze'],

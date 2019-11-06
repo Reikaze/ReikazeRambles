@@ -50,8 +50,8 @@ module.exports = {
 						variants: [`400`, `700`]
 					},
 					{
-						family: "Montserrat",
-						variants: [`400`, `700`]
+						family: "Poiret One",
+						variants: [`400`]
 					}
 				]
 			}

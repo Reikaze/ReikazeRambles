@@ -3,7 +3,7 @@
 
 :root {
 	/* Some obvious colors (dark/light) are duplicated to provide dark mode */
-	--darkPrimary: #214F87;
+	--darkPrimary: #ffffff;
 	--primary: #ffffff;
 	--black: black;
 	--white: white;
@@ -18,8 +18,8 @@
 	--animSpeed: 200ms;
 	--animStyle: ease-in-out;
 	--cardOutlineStyle: 1px solid var(--primary);
-	--archivo: "Archivo", sans-serif;
-	--oswald: "Oswald", "Archivo", sans-serif;
+	--Roboto: "Roboto", sans-serif;
+	--PoiretOne: "Poiret One", sans-serif;
 	--cardRadius: #{$baseUnit}px;
 	--filterBarIconSize: #{3 * $baseUnit}px;
 	--filterBarFontSize: #{2.5 * $baseUnit}px;
@@ -63,7 +63,7 @@
 
 body {
 	background-color: var(--backgroundColor);
-	font-family: var(--archivo);
+	font-family: var(--Roboto);
 	color: var(--black);
 	transition: color var(--animStyle) var(--animSpeed),
 		background-color var(--animStyle) var(--animSpeed);
@@ -73,10 +73,13 @@ body {
 	background: var(--backgroundColor) !important;
 }
 
-h1,
+h1{
+	font-family: var(--PoiretOne)
+}
+
 h2,
 h3 {
-	font-family: var(--oswald);
+	font-family: var(--Roboto);
 }
 
 h1 {
