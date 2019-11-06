@@ -5,9 +5,9 @@ module.exports = {
 	siteMetadata: {
 		title: `RockmanDash Reviews`,
 		description: ``,
-		siteUrl: `https://unicorn-utterances.com/`,
-		disqusShortname: "unicorn-utterances",
-		repoPath: "unicorn-utterances/unicorn-utterances",
+		siteUrl: `https://reikazerambles.com/`,
+		disqusShortname: "reikazerambles",
+		repoPath: "Reikaze/Reikaze.github.io",
 		relativeToPosts: "/content/blog",
 		keywords:
 			"programming,development,mobile,web,game,utterances,software engineering,javascript,angular,react,computer science"

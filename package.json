@@ -1,11 +1,11 @@
 {
-	"name": "unicorn-utterances-site",
+	"name": "reikazerambles-site",
 	"private": true,
 	"description": "Learning programming from magically majestic words",
 	"version": "0.1.0",
 	"author": "Corbin Crutchley <crutchcorn@gmail.com>",
 	"bugs": {
-		"url": "https://github.com/unicorn-utterances/unicorn-utterances/issues"
+		"url": "https://github.com/Reikaze/reikaze.github.io/issues"
 	},
 	"husky": {
 		"hooks": {
@@ -90,7 +90,7 @@
 		"stylelint-config-prettier": "^6.0.0",
 		"stylelint-prettier": "^1.1.1"
 	},
-	"homepage": "https://unicorn-utterances.com",
+	"homepage": "https://reikazerambles.com",
 	"keywords": [
 		"blog",
 		"education",
@@ -100,7 +100,7 @@
 	"main": "n/a",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/unicorn-utterances/unicorn-utterances.git"
+		"url": "git+https://github.com/Reikaze/reikaze.github.io.git"
 	},
 	"scripts": {
 		"build": "gatsby build",
