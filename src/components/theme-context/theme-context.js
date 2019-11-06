@@ -38,7 +38,7 @@ export const darkTheme = {
 
 export const lightTheme = {
 	//main styles
-	"--darkPrimary": "#FFFFFF",
+	"--darkPrimary": "#214F87",
   "--primary": "#127DB3",
   "--black": "black",
   "--white": "white",
