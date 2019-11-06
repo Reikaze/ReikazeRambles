@@ -1,8 +1,8 @@
 <p align="center">
-    <img alt="Unicorn Utterances logo" src="./content/assets/unicorn-utterances-logo-512.png"/>
+    <img alt="Reikaze Rambles logo" src="./content/assets/unicorn-utterances-logo-512.png"/>
 </p>
 <h1 align="center">
-  Unicorn Utterances Website
+  Reikaze Rambles Website
 </h1>
 <div align="center">
 
@@ -15,7 +15,7 @@ Integration branch status: [![Integration Branch Build Status](https://travis-ci
 
 </div>
 
-This repository acts as the source code location for [the Unicorn Utterances blog](https://unicorn-utterances.com)
+This repository acts as the source code location for [the Reikaze Rambles blog](https://unicorn-utterances.com)
 
 ## Sponsors
 
@@ -75,5 +75,5 @@ unless it is an emergency hotfix (to be approved by the devops team).
 We also have the `master` branch which is a live reflection of the code
 hosted on the server. Any time `integration` is pulled into `master`, the
 site will be deployed. A PR from `integration` to `master` should only be
-opened by a Unicorn Utterances team member and must be approved by at
+opened by a Reikaze Rambles team member and must be approved by at
 least one devops member

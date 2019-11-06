@@ -10,7 +10,7 @@ module.exports = {
 		repoPath: "Reikaze/Reikaze.github.io",
 		relativeToPosts: "/content/blog",
 		keywords:
-			"programming,development,mobile,web,game,utterances,software engineering,javascript,angular,react,computer science"
+			"Anime, Visual Novels, Gaming, Technology, Computers, Rambling, Reviews, Personal"
 	},
 	plugins: [
 		{
@@ -195,7 +195,7 @@ module.exports = {
               }
             `,
 						output: "/rss.xml",
-						title: "Unicorn Utterances's RSS Feed"
+						title: "Reikaze Rambles's RSS Feed"
 					}
 				]
 			}
@@ -203,8 +203,8 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: `Unicorn Utterances`,
-				short_name: `Unicorn Utterances`,
+				name: `Reikaze Rambles`,
+				short_name: `Reikaze Rambles`,
 				start_url: `/`,
 				background_color: `#ffffff`,
 				theme_color: `#127db3`,
