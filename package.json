@@ -1,9 +1,9 @@
 {
 	"name": "reikazerambles-site",
 	"private": true,
-	"description": "Learning programming from magically majestic words",
+	"description": "The new home of RockmanDash Reviews",
 	"version": "0.1.0",
-	"author": "Corbin Crutchley <crutchcorn@gmail.com>",
+	"author": "Kevin Mai <Kevinmai814@gmail.com>",
 	"bugs": {
 		"url": "https://github.com/Reikaze/reikaze.github.io/issues"
 	},

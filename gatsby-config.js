@@ -3,8 +3,8 @@ if (!CONSTS) CONSTS = {};
 
 module.exports = {
 	siteMetadata: {
-		title: `RockmanDash Reviews`,
-		description: ``,
+		title: `Reikaze Rambles`,
+		description: `The new home for RockmanDash Reviews`,
 		siteUrl: `https://reikazerambles.com/`,
 		disqusShortname: "reikazerambles",
 		repoPath: "Reikaze/Reikaze.github.io",
@@ -46,12 +46,11 @@ module.exports = {
 			options: {
 				fonts: [
 					{
-						family: `Archivo`,
-						variants: [`400`, `700`],
-						subsets: [`latin`]
+						family: `Roboto`,
+						variants: [`400`, `700`]
 					},
 					{
-						family: "Oswald",
+						family: "Montserrat",
 						variants: [`400`, `700`]
 					}
 				]
