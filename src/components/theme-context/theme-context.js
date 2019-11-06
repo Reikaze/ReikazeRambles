@@ -10,15 +10,15 @@ export const darkTheme = {
 	"--highImpactBlack": "rgba(255, 255, 255, .87)",
 	"--midImpactBlack": "rgba(255, 255, 255, .64)",
 	"--lowImpactBlack": "rgba(255, 255, 255, .58)",
-	"--backgroundColor": "#0F263F", //from tommy's mockup
-	"--cardActiveBackground": "#163954", //from tommy's mockup
+	"--backgroundColor": "#282828", //from tommy's mockup
+	"--cardActiveBackground": "282828", //from tommy's mockup
 	"--cardActiveBoxShadow":
-		"0px 2px 4px rgba(0, 0, 0, 0.27), inset 0px 1px 0px #435e75", //close to tommy's mockup but outset color is slightly different
+		"0px 2px 4px rgba(0, 0, 0, 0.27), inset 0px 1px 0px #214F87", //close to tommy's mockup but outset color is slightly different
 	"--codeBlockBackground": "#202746",
 	//code styles
 	"--codeBackgroundColor": "#0C2035",
-	"--textColor": "#7ea2b4",
-	"--stringColor": "#2d8f6f",
+	"--textColor": "#FFFFFF",
+	"--stringColor": "#FFFFFF",
 	"--keywordColor": "#568c3b",
 	"--operatorColor": "#935c25",
 	"--punctuationColor": "#7ea2b4", //this might change
@@ -29,7 +29,7 @@ export const darkTheme = {
 	"--propColor": "#8a8a0f",
 	"--varColor": "#257fad",
 	"--selectorColor": "#6b6bb8",
-	"--urlColor": "#2d8f6f",
+	"--urlColor": "#214F87",
 	"--insertedUnderlineColor": "#ebf8ff",
 	"--highlightColor": "#d22d72",
 	"--lineNumbersColor": "#516d7b",
@@ -48,7 +48,7 @@ export const lightTheme = {
 	"--midImpactBlack": "rgba(0, 0, 0, 0.64)",
 	"--lowImpactBlack": "rgba(0, 0, 0, 0.58)",
 	"--backgroundColor": "#FFFFFF",
-	"--cardActiveBackground": "#EBF6FC",
+	"--cardActiveBackground": "#FFFFFF",
 	"--cardActiveBoxShadow":
 		"0px 2px 4px rgba(11, 37, 104, 0.27), inset 0px 1px 0px #FFFFFF",
 	"--codeBlockBackground": "white",
