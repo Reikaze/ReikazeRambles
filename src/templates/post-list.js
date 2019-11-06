@@ -16,9 +16,6 @@ const BlogPostListTemplate = props => {
 		<>
 			{data.site.siteMetadata.description}
 			<br />
-			<Link to={"/about"} aria-label={"The about us page"}>
-				<span aria-hidden={true}>Read More</span>
-			</Link>
 		</>
 	);
 
@@ -31,7 +28,7 @@ const BlogPostListTemplate = props => {
 				<PostListLayout posts={posts} pageContext={pageContext}>
 					<PicTitleHeader
 						image={data.file.childImageSharp.fixed}
-						title="Unicorn Utterances"
+						title="RockmanDash Reviews"
 						description={Description}
 					/>
 				</PostListLayout>

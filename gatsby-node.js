@@ -30,26 +30,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 	}
 };
 
-exports.sourceNodes = ({ getNodesByType, actions: { createNodeField } }) => {
-	const postNodes = getNodesByType(`MarkdownRemark`);
-	const unicornNodes = getNodesByType(`UnicornsJson`);
-
-	unicornNodes.forEach(unicornNode => {
-		const isAuthor = postNodes
-			// Ensure it's actually a post
-			.filter(post => !!post.frontmatter.authors)
-			.some(post => {
-				return post.frontmatter.authors.includes(unicornNode.id);
-			});
-
-		createNodeField({
-			name: `isAuthor`,
-			node: unicornNode,
-			value: isAuthor
-		});
-	});
-};
-
 exports.createPages = ({ graphql, actions }) => {
 	const { createPage } = actions;
 

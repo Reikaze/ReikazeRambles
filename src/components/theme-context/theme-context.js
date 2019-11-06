@@ -47,7 +47,7 @@ export const lightTheme = {
 	"--highImpactBlack": "rgba(0, 0, 0, 0.87)",
 	"--midImpactBlack": "rgba(0, 0, 0, 0.64)",
 	"--lowImpactBlack": "rgba(0, 0, 0, 0.58)",
-	"--backgroundColor": "#E4F4FF",
+	"--backgroundColor": "#FFFFFF",
 	"--cardActiveBackground": "#EBF6FC",
 	"--cardActiveBoxShadow":
 		"0px 2px 4px rgba(11, 37, 104, 0.27), inset 0px 1px 0px #FFFFFF",
