@@ -2,11 +2,8 @@
 # include this file with "include redirects_unicorn-utterances.com;"
 
 # url migration per PR #15
-location /authors/crutchcorn {
-    return 301 /unicorns/crutchcorn;
-}
 
-location /unicorns {
+location /authors {
     return 302 /about;
 }
 

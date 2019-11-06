@@ -64,33 +64,11 @@ const BlogPostTemplateChild = props => {
 					dangerouslySetInnerHTML={{ __html: post.html }}
 				/>
 				<footer role="contentinfo" className="post-lower-area">
-					<div>
-						<a
-							aria-label={`Post licensed with ${post.frontmatter.license.displayName}`}
-							href={post.frontmatter.license.explainLink}
-							style={{ display: "table", margin: "0 auto" }}
-						>
-							<img
-								src={post.frontmatter.license.footerImg}
-								alt={post.frontmatter.license.licenceType}
-							/>
-						</a>
-					</div>
 					<div className="postBottom">
 						<div className="btnLike prependIcon">
 							<CommentsIcon />
 							<p>Comments</p>
 						</div>
-
-						<OutboundLink className="baseBtn prependIcon" href={GHLink}>
-							<GitHubIcon />
-							View this Post on GitHub
-						</OutboundLink>
-
-						{/*<button className="baseBtn appendIcon" type="button">*/}
-						{/*  Share this Post*/}
-						{/*  <ShareIcon/>*/}
-						{/*</button>*/}
 					</div>
 					<DiscussionEmbed
 						shortname={siteData.disqusShortname}

@@ -70,21 +70,8 @@ export const authorFragmentQuery = graphql`
 		fields {
 			isAuthor
 		}
-		roles {
-			prettyname
-			id
-		}
 		socials {
 			twitter
-			github
-			website
-		}
-		pronouns {
-			they
-			them
-			their
-			theirs
-			themselves
 		}
 		profileImg {
 			childImageSharp {
@@ -114,13 +101,6 @@ export const postFragmentQuery = graphql`
 			description
 			authors {
 				...UnicornInfo
-			}
-			license {
-				licenceType
-				footerImg
-				explainLink
-				name
-				displayName
 			}
 		}
 		fields {

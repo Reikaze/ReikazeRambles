@@ -281,9 +281,6 @@ module.exports = {
 		`gatsby-plugin-sitemap`
 	],
 	mapping: {
-		"MarkdownRemark.frontmatter.authors": `UnicornsJson`,
-		"MarkdownRemark.frontmatter.license": `LicensesJson`,
-		"UnicornsJson.pronouns": `PronounsJson`,
-		"UnicornsJson.roles": `RolesJson`
+		"MarkdownRemark.frontmatter.authors": `UnicornsJson`
 	}
 };

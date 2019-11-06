@@ -39,7 +39,7 @@ export const PostMetadata = ({ post }) => {
 								<span>{i !== 0 && ", "}</span>
 								<Link
 									key={author.id}
-									to={`/unicorns/${author.id}`}
+									to={`/authors/${author.id}`}
 									ref={authorLinks[i].ref}
 									className={styles.authorLink}
 								>

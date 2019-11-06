@@ -62,7 +62,7 @@ export const PostCard = ({
 				<p className={cardStyles.authorName}>
 					<span>by&nbsp;</span>
 					<Link
-						to={`/unicorns/${authors[0].id}`}
+						to={`/authors/${authors[0].id}`}
 						className={cardStyles.authorLink}
 						ref={authorLinks[0].ref}
 						onClick={e => e.stopPropagation()}
@@ -76,7 +76,7 @@ export const PostCard = ({
 								<span>, </span>
 								<Link
 									key={author.id}
-									to={`/unicorns/${author.id}`}
+									to={`/authors/${author.id}`}
 									className={cardStyles.authorLink}
 									ref={authorLinks[i].ref}
 									onClick={e => e.stopPropagation()}
