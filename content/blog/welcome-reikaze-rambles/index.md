@@ -2,7 +2,7 @@
 {
     title: "Welcome to Reikaze Rambles!",
     description: An introduction to Reikaze Rambles/RockmanDash Reviews,
-    published: '2019-11-05T22:12:03.284Z',
+    published: '2019-11-11T12:00:00.000Z',
     authors: ['reikaze'],
     tags: ['welcome', 'announcements'],
     attached: [],
