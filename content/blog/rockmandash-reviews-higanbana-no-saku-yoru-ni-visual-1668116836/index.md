@@ -25,7 +25,6 @@ oldArticle: true
 </div>
 <div class="bxm4mm-3 eCMXYG js_video-sticky__bottom-limit"></div>
 <img alt src="./1248079700425312872.png"/>
-<img alt src="./1248079700517581672.jpg"/>
 <p class="sc-77igqf-0 bOfvBY">There’s not much you can say directly about the plot of <em>Higanbana</em> without
   spoiling it, because it has such a strong story that hones in on a few themes, continuously reinforcing it and the
   message it wants to tell. Like 07th Expansion’s other games, it’s another supernatural horror game, this time taking
