@@ -41,19 +41,13 @@ module.exports = {
 				path: `./src/data`
 			}
 		},
+
 		{
-			resolve: `gatsby-plugin-prefetch-google-fonts`,
+			resolve: "gatsby-plugin-web-font-loader",
 			options: {
-				fonts: [
-					{
-						family: `Roboto`,
-						variants: [`400`, `700`]
-					},
-					{
-						family: "Poiret One",
-						variants: [`400`]
-					}
-				]
+				google: {
+					families: [`Roboto:400,600,700`, `Poiret One:400`]
+				}
 			}
 		},
 		{
