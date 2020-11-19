@@ -27,13 +27,6 @@ module.exports = {
 				name: `assets`
 			}
 		},
-		{
-			resolve: `gatsby-source-filesystem`,
-			options: {
-				path: `${__dirname}/content/site`,
-				name: `sitecontent`
-			}
-		},
 		`gatsby-transformer-json`,
 		{
 			resolve: `gatsby-source-filesystem`,
@@ -202,7 +195,7 @@ module.exports = {
 				background_color: `#ffffff`,
 				theme_color: `#127db3`,
 				display: `minimal-ui`,
-				icon: `content/assets/unicorn-utterances-logo-512.png`
+				icon: `content/assets/rr.png`
 			}
 		},
 		`gatsby-plugin-offline`,

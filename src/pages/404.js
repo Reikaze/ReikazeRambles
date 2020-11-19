@@ -14,12 +14,6 @@ class NotFoundPage extends React.Component {
 		return (
 			<Layout location={this.props.location} title={siteTitle}>
 				<SEO title="404: Not Found" />
-				<Image
-					fixed={data.file.childImageSharp.fixed}
-					imgStyle={{ objectFit: "contain" }}
-					style={{ margin: "0 auto", display: "block", width: "100%" }}
-					loading={"eager"}
-				/>
 				<h1 style={{ textAlign: "center" }}>
 					We're Sorry, We Don't Understand
 				</h1>
@@ -46,13 +40,6 @@ export const pageQuery = graphql`
 			siteMetadata {
 				title
 				repoPath
-			}
-		}
-		file(relativePath: { eq: "sad_unicorn-2048.png" }) {
-			childImageSharp {
-				fixed(width: 500, quality: 100) {
-					...GatsbyImageSharpFixed
-				}
 			}
 		}
 	}

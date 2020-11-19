@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Reikaze Rambles logo" src="./content/assets/unicorn-utterances-logo-512.png"/>
+    <img alt="Reikaze Rambles logo" src="./content/assets/rr.png"/>
 </p>
 <h1 align="center">
   Reikaze Rambles Website
