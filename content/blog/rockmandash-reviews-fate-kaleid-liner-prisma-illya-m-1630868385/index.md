@@ -49,7 +49,7 @@ oldArticle: true
   girl show.If you think of it as another viewpoint of the Nasuverse instead, then you’ll probably enjoy this quite a
   bit more.</p>
 
-<img alt src="./1471910960818297748.bmp"/><p class="sc-77igqf-0 bOfvBY">One day, a magical rod named Ruby comes crashing into Illya’s bathroom as she’s
+<img alt src="./1471910960818297748.png"/><p class="sc-77igqf-0 bOfvBY">One day, a magical rod named Ruby comes crashing into Illya’s bathroom as she’s
   taking a bath. Ruby was running away from Rin Tohsaka, a magus, and decides to make Illya into a magical girl. When
   Rin figures this out, Rin gives Illya the task of obtaining 7 class cards which contain the spirits from heroes of
   legend, and Illya has to fight a series of battles with each respective hero. When 2wei starts though, a girl named
