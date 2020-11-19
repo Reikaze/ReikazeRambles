@@ -1,12 +1,13 @@
 ---
 {
     title: "Welcome to Reikaze Rambles!",
-    description: An introduction to Reikaze Rambles/RockmanDash Reviews,
+    description: "An introduction to Reikaze Rambles/RockmanDash Reviews",
     published: '2019-11-11T12:00:00.000Z',
     authors: ['reikaze'],
     tags: ['welcome', 'announcements'],
     attached: [],
-    license: 'cc-by-4'
+    license: 'cc-by-4',
+    oldArticle: false
 }
 ---
 ![hey this is new and a test!](./CnQ1J0G.png)

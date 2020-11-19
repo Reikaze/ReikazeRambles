@@ -96,6 +96,7 @@ export const postFragmentQuery = graphql`
 			published(formatString: "MMMM DD, YYYY")
 			tags
 			description
+			oldArticle
 			authors {
 				...UnicornInfo
 			}

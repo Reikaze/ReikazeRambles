@@ -7,8 +7,8 @@ export const WordCount = ({ numberOfArticles = 0, wordCount = 0 }) => {
 		<div className={wordCountStyles.container}>
 			<FeatherIcon className={wordCountStyles.icon} />
 			<p>{numberOfArticles} Articles</p>
-			<div className={wordCountStyles.divider} />
-			<p>{wordCount} Words</p>
+			{/*<div className={wordCountStyles.divider} />*/}
+			{/*<p>{wordCount} Words</p>*/}
 		</div>
 	);
 };

@@ -1,22 +1,36 @@
-/* Magnification SVG on Images */
-.magnifier {
-	display: none;
+///* Magnification SVG on Images */
+//.magnifier {
+//	display: none;
+//}
+//
+///* Images */
+//.image-hydration-wrapper {
+//	padding-bottom: 0 !important;
+//}
+//
+///* Ads */
+//.swappable-mobile-ad-container,
+//.ad-mobile-dynamic,
+//.movable-ad {
+//	display: none;
+//}
+//
+///* Article asides */
+//.branded-item--kotaku,
+//.branded-item--kinja {
+//	display: none;
+//}
+
+.oldArticle span.flex-video.widescreen {
+	position: relative;
+	margin-bottom: 1.0725rem;
+	display: block;
+	padding-bottom: 56.25%;
 }
 
-/* Images */
-.image-hydration-wrapper {
+.oldArticle .gatsby-resp-iframe-wrapper {
 	padding-bottom: 0 !important;
-}
-
-/* Ads */
-.swappable-mobile-ad-container,
-.ad-mobile-dynamic,
-.movable-ad {
-	display: none;
-}
-
-/* Article asides */
-.branded-item--kotaku,
-.branded-item--kinja {
-	display: none;
+	height: auto !important;
+	overflow: visible !important;
+	margin-bottom: 0 !important;
 }

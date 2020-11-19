@@ -14,6 +14,7 @@ const BlogPostTemplateChild = props => {
 	const post = props.data.markdownRemark;
 	const siteData = props.data.site.siteMetadata;
 	const slug = post.fields.slug;
+	const oldArticle = post.frontmatter.oldArticle;
 
 	const { currentTheme } = useContext(ThemeContext);
 
@@ -40,8 +41,6 @@ const BlogPostTemplateChild = props => {
 		}, 600);
 	}, [currentTheme, post.frontmatter.title, siteData.siteUrl, slug]);
 
-	const GHLink = `https://github.com/${siteData.repoPath}/tree/master${siteData.relativeToPosts}${slug}index.md`;
-
 	return (
 		<>
 			<SEO
@@ -53,10 +52,10 @@ const BlogPostTemplateChild = props => {
 				keywords={post.frontmatter.tags}
 				type="article"
 			/>
-			<article>
+			<article className={oldArticle ? "oldArticle" : ""}>
 				<header role="banner" className="marginZeroAutoChild">
 					<PostTitleHeader post={post} />
-					<PostMetadata post={post} />
+					<PostMetadata post={post} oldArticle={oldArticle} />
 				</header>
 				<main
 					className="post-body"

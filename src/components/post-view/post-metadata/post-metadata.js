@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import { stopPropCallback } from "../../../utils/preventCallback";
 import { UserProfilePic } from "../../user-profile-pic";
 
-export const PostMetadata = ({ post }) => {
+export const PostMetadata = ({ post, oldArticle }) => {
 	const { authors } = post.frontmatter;
 
 	const authorLinks = useMemo(
@@ -51,7 +51,7 @@ export const PostMetadata = ({ post }) => {
 				</h2>
 				<div className={styles.belowName}>
 					<p>{post.frontmatter.published}</p>
-					<p>{post.wordCount.words} words</p>
+					{!oldArticle && <p>{post.wordCount.words} words</p>}
 				</div>
 			</div>
 		</div>
